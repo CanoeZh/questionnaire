@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“Phishing Detective”Questionnaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #9790ED;
+            
+            
+        }
+        h1 {
+            text-align: center;
+            color: #0F085E; 
+        }
+        .icon {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 40px; 
+            height: 40px; 
+        }
+        form {
+            max-width: 800px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        textarea {
+            width: 100%;
+            height: 60px;
+            margin-top: 5px;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #FFD33D;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <img src="-Design-/icon-09.png" alt="Icon" class="icon">
+
+
+    <h1>Phishing Email Prevention Game Questionnaire</h1>
+    <form>
+        <div class="question">
+            <label>1. Do you think this game helped you recognize phishing emails?</label><br>
+            <input type="radio" name="q1" value="Yes"> Yes<br>
+            <input type="radio" name="q1" value="No"> No<br>
+            <label>If yes, why? (Please briefly explain)</label><br>
+            <textarea name="q1-explanation"></textarea>
+        </div>
+
+        <div class="question">
+            <label>2. After playing this game, do you feel you will be more careful with phishing emails in your daily life?</label><br>
+            <input type="radio" name="q2" value="Yes"> Yes<br>
+            <input type="radio" name="q2" value="No"> No<br>
+            <label>Please provide an example:</label><br>
+            <textarea name="q2-example"></textarea>
+        </div>
+
+        <div class="question">
+            <label>3. How do you usually handle phishing emails? Did the game change your approach?</label><br>
+            <input type="radio" name="q3" value="Yes"> Yes<br>
+            <input type="radio" name="q3" value="No"> No<br>
+            <label>If yes, please briefly explain:</label><br>
+            <textarea name="q3-explanation"></textarea>
+        </div>
+
+        <div class="question">
+            <label>4. How would you rate the game’s graphic style? Did it affect your experience?</label><br>
+            <input type="radio" name="q4" value="Greatly affected"> Greatly affected<br>
+            <input type="radio" name="q4" value="Somewhat affected"> Somewhat affected<br>
+            <input type="radio" name="q4" value="No effect"> No effect<br>
+            <label>Please briefly explain why:</label><br>
+            <textarea name="q4-explanation"></textarea>
+        </div>
+
+        <div class="question">
+            <label>5. Did the graphic design make it easier to understand the game content?</label><br>
+            <input type="radio" name="q5" value="Yes"> Yes<br>
+            <input type="radio" name="q5" value="No"> No<br>
+            <label>Why?</label><br>
+            <textarea name="q5-explanation"></textarea>
+        </div>
+
+        <div class="question">
+            <label>6. How long do you think the strategies you learned in the game will be helpful to you?</label><br>
+            <input type="radio" name="q6" value="Long-term"> Long-term<br>
+            <input type="radio" name="q6" value="Short-term"> Short-term<br>
+            <input type="radio" name="q6" value="Not helpful"> Not helpful<br>
+            <label>Please briefly explain why:</label><br>
+            <textarea name="q6-explanation"></textarea>
+        </div>
+
+        <div class="question">
+            <label>7. Do you think you will remember the information you learned from the game after some time?</label><br>
+            <input type="radio" name="q7" value="Yes"> Yes<br>
+            <input type="radio" name="q7" value="Maybe"> Maybe<br>
+            <input type="radio" name="q7" value="No"> No<br>
+            <label>Why?</label><br>
+            <textarea name="q7-explanation"></textarea>
+        </div>
+
+        <div class="question">
+            <label>8. Do you think this game format is better than learning through an app?</label><br>
+            <input type="radio" name="q8" value="Yes"> Yes<br>
+            <input type="radio" name="q8" value="No"> No<br>
+            <label>Why?</label><br>
+            <textarea name="q8-explanation"></textarea>
+        </div>
+
+        <div class="question">
+            <label>9. If the same content was available, would you prefer to learn through a game or an app?</label><br>
+            <input type="radio" name="q9" value="Game"> Game<br>
+            <input type="radio" name="q9" value="App"> App<br>
+            <input type="radio" name="q9" value="Other"> Other (please specify):  
+            <textarea name="q9-other"></textarea>
+        </div>
+
+        <div class="question">
+            <label>10. When you receive a phishing email, what steps do you usually take? Did the game change your response?</label><br>
+            <input type="radio" name="q10" value="Yes"> Yes<br>
+            <input type="radio" name="q10" value="No"> No<br>
+            <label>If yes, what did it change?</label><br>
+            <textarea name="q10-explanation"></textarea>
+        </div>
+
+        <div class="question">
+            <label>11. Will you share the phishing prevention tips you learned with others?</label><br>
+            <input type="radio" name="q11" value="Yes"> Yes<br>
+            <input type="radio" name="q11" value="No"> No<br>
+            <label>If yes, why?</label><br>
+            <textarea name="q11-explanation"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
